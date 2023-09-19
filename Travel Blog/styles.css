@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    background-image: url('beach.avif'); /* Replace with your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    min-height: 100vh; /* Ensure the page takes at least the full viewport height */
+    position: relative;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.italic {
+    font-style: italic;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust the spacing from the content above as needed */
+}
+
+.social-icon {
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin: 0 10px; /* Adjust the spacing between icons as needed */
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover */
+}
+
+
+/* Set Poppins as the default font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
