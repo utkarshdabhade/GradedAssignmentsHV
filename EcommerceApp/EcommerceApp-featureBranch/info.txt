@@ -1,0 +1,54 @@
+
+Team 3 :Rayith,Khusbu
+Mock Data : https://dummyjson.com/products
+
+
+E-commerce Application Using DOM
+
+
+
+Task 1: Setting Up the Basic Structure
+Problem Statement:
+You are tasked with creating the basic structure of an e-commerce application using JavaScript DOM manipulation. The application will consist of a product list, a shopping cart, and some basic functionality to add and remove products from the cart.
+
+Example : 
+
+
+Tasks:
+
+Mock Data : https://dummyjson.com/products
+
+Create an HTML file with appropriate containers for the product list and the shopping cart.
+Link the HTML file to a JavaScript file where you will perform the DOM manipulation.
+Create a JavaScript function to generate and display a list of products. You can use dummy data for now, like product names, prices, and images.
+Ensure that each product displayed has an "Add to Cart" button.
+Task 2: Adding Products to the Shopping Cart
+Problem Statement:
+You have successfully set up the basic structure for the e-commerce application. Now, your task is to implement the functionality that allows users to add products to their shopping cart when they click the "Add to Cart" button.
+
+Tasks:
+
+Attach event listeners to the "Add to Cart" buttons so that when clicked, the corresponding product is added to the shopping cart.
+Create a JavaScript function to update the shopping cart's visual representation whenever a product is added. You can simply display the product name and price for now.
+
+
+Task 3: Displaying the Shopping Cart Total
+Problem Statement:
+As users add products to their shopping cart, you need to display the total price of all the items in the cart. Implement this functionality.
+
+Tasks:
+
+Modify the JavaScript function responsible for updating the shopping cart to also calculate and display the total price.
+Update the function to handle quantity adjustments (increasing or decreasing) for each product in the cart.
+Task 4: Removing Products from the Shopping Cart
+Problem Statement:
+Users should be able to remove products from the shopping cart if they change their minds. Implement this feature.
+
+Tasks:
+
+Add a "Remove" button next to each product in the shopping cart.
+Implement event listeners for these "Remove" buttons to remove the corresponding product from the cart and update the total price accordingly.
+
+
+
+
